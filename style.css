@@ -1,10 +1,12 @@
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   color: #333;
 }
-
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
 header {
   background-color: #2c3e50;
   color: white;
@@ -82,6 +84,14 @@ nav a:hover {
   padding: 20px;
 }
 
+.product-details-grid {
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
 .product-card {
   background: white;
   padding: 15px;
@@ -143,4 +153,68 @@ nav a:hover {
 .favorite:hover {
   background: #e74c3c;
   color: white;
+}
+.btn-container {
+    
+}
+.action-btn {
+    
+}
+.action-heading {
+    font-size: 2rem;
+    color: #2c3e50;
+}
+.product-img-container {
+    
+}
+.product-desc {
+    font-size: 1rem;
+    color: #555;
+}
+.shoe-img{
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    width: 50%;
+    padding: 20px;
+    border: solid 0px;
+    border-radius: 30px;
+}
+.price {
+    padding: 8px;
+    background-color: #f5f5f5;
+    border: solid 1.5px #aaa;
+    border-radius: 3px;
+    margin: 5px;
+}
+.price:hover{
+    background-color: #3498db;
+}
+.action-btn{
+    margin-top: 20px;
+}
+.add-to-bag{
+    border-radius: 100px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.add-to-bag:hover{
+    background-color: #c0392b;
+}
+.favourite{
+    border-radius: 100px;
+    background-color: #f5f5f5;
+    color: #e74c3c;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.favourite:hover{
+    background-color: #e74c3c;
+    color: #f5f5f5;
 }
